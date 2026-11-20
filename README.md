@@ -23,16 +23,16 @@ QuantSuite is a multi-asset derivatives pricing platform for Equity and FX. It f
 
 ## 🚀 Roadmap & Development Tasks
 
-### Phase 1: Multi-Asset Engine (Week 3)
-- [ ] Implement **Garman-Kohlhagen** pricing for FX pairs and **Black-Scholes-Merton** for dividend-paying equities.
-- [ ] Optimize the **Newton-Raphson IV Solver** for robust convergence across varying market conditions.
-- [ ] Standardize the input pipeline for domestic ($r_d$) and foreign ($r_f$) risk-free rates.
+### Phase 1: Multi-Asset Engine (Week 3) — ✅ COMPLETE
+- [x] Implement **Garman-Kohlhagen** pricing for FX pairs and **Black-Scholes-Merton** for dividend-paying equities.
+- [x] Optimize the **Newton-Raphson IV Solver** for robust convergence across varying market conditions (bisection fallback).
+- [x] Standardize the input pipeline for domestic ($r_d$) and foreign ($r_f$) risk-free rates.
 
-### Phase 2: Advanced Visuals & Surfaces (Week 4)
-- [ ] Deploy Plotly-based **3D Volatility Surfaces** to identify market skew and term structure.
-- [ ] Map the **Volatility Smile** to visualize tail-risk expectations in Equity vs. FX.
-- [ ] Create 2D sensitivity heatmaps for **Second-Order Greeks** (Gamma/Vanna).
+### Phase 2: Advanced Visuals & Surfaces (Week 4) — ✅ COMPLETE
+- [x] Deploy Plotly-based **3D Volatility Surfaces** to identify market skew and term structure.
+- [x] Map the **Volatility Smile** to visualize tail-risk expectations in Equity vs. FX.
+- [x] Create 2D sensitivity heatmaps for **Second-Order Greeks** (Gamma/Vanna).
 
-### Phase 3: Trading Strategy & I/O (Week 5)
-- [ ] Build a **Strategy Builder** with P&L simulations for multi-leg option spreads.
+### Phase 3: Trading Strategy & I/O (Week 5) — ✅ COMPLETE
+- [x] Build a **Strategy Builder** with P&L simulations for multi-leg option spreads (6 presets: straddle, strangle, bull call, bear put, iron condor, butterfly).
 -
