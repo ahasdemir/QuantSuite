@@ -14,6 +14,25 @@ QuantSuite is a multi-asset derivatives pricing platform for Equity and FX. It f
 * **Surface Mapping:** Dynamic **3D Volatility Surfaces** (Maturity x Strike x IV) to visualize market expectations and term structures.
 * **Strategy Simulation:** Interactive payoff diagrams for complex strategies like Iron Condors and Straddles, featuring real-time sensitivity analysis.
 
+## 📸 Screenshots
+
+### Equity Derivatives — BSM pricing, Greeks & IV solver
+![Equity Derivatives](docs/screenshots/equity_derivatives.png)
+
+### FX Derivatives — Garman-Kohlhagen dual-rate pricing
+![FX Derivatives](docs/screenshots/fx_derivatives.png)
+
+### Volatility Analysis — 3D parametric surface, smile & second-order Greeks
+![Volatility Analysis](docs/screenshots/volatility_analysis.png)
+
+### Strategy Builder — multi-leg payoff simulation & risk metrics
+![Strategy Builder](docs/screenshots/strategy_builder.png)
+
+### Home
+![Home](docs/screenshots/home.png)
+
+---
+
 ## 🧬 Evolution & Credits
 **QuantSuite** is an advanced evolution of the **[Algo-Risk Monitor](https://github.com/ahasdemir/Algo-Risk-Monitor)** project. 
 * The core `analysis_utils.py` and data-fetching framework were inherited from Algo-Risk Monitor and significantly expanded to support derivative-specific math and stochastic simulations.
